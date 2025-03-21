@@ -1,0 +1,61 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Visual Studio settings
+.vs/
+
+# Backup & temporary files
+*.bak
+*.tmp
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Windows thumbnail cache
+Thumbs.db
+
+# OS generated files
+.DS_Store
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Resharper files
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Publish folder
+publish/
+
+# Test results
+TestResults/
+*.TestResults
+
+# Others
+*.dbmdl
+*.pdb
+*.cache
+*.ilk
+*.idb
+*.tlog
