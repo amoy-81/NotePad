@@ -51,6 +51,7 @@
             textColorToolStripMenuItem = new ToolStripMenuItem();
             saveFileDialog1 = new SaveFileDialog();
             openFileDialog1 = new OpenFileDialog();
+            fileToolStripMenuItem1 = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -77,7 +78,7 @@
             // 
             // fileToolStripMenuItem
             // 
-            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newToolStripMenuItem, openToolStripMenuItem, saveButton, saveAsToolStripMenuItem, toolStripMenuItem1, exitToolStripMenuItem });
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newToolStripMenuItem, openToolStripMenuItem, saveButton, saveAsToolStripMenuItem, toolStripMenuItem1, exitToolStripMenuItem, fileToolStripMenuItem1 });
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             fileToolStripMenuItem.Size = new Size(37, 20);
             fileToolStripMenuItem.Text = "&File";
@@ -101,6 +102,7 @@
             // saveButton
             // 
             saveButton.Name = "saveButton";
+            saveButton.ShortcutKeys = Keys.Control | Keys.S;
             saveButton.Size = new Size(180, 22);
             saveButton.Text = "Save";
             saveButton.Click += saveClick;
@@ -199,6 +201,12 @@
             // 
             openFileDialog1.FileName = "openFileDialog1";
             // 
+            // fileToolStripMenuItem1
+            // 
+            fileToolStripMenuItem1.Name = "fileToolStripMenuItem1";
+            fileToolStripMenuItem1.Size = new Size(180, 22);
+            fileToolStripMenuItem1.Text = "&File";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -240,5 +248,6 @@
         private ToolStripMenuItem textColorToolStripMenuItem;
         private SaveFileDialog saveFileDialog1;
         private OpenFileDialog openFileDialog1;
+        private ToolStripMenuItem fileToolStripMenuItem1;
     }
 }
